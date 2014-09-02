@@ -1,0 +1,9 @@
+Como la linea de comando para compilar este projecto es muy larga
+Se uso un command file para gcc
+
+Invocacion
+
+gcc @compile.cmd
+
+Fuente:http://stackoverflow.com/questions/7139685/does-gcc-support-command-files
+
