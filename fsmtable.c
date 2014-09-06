@@ -18,7 +18,7 @@ extern STATE estado_5[];
 
 static void do_nothing(void);
 static void reset_FSM(void);
-static void coincidencia (void);
+static void match (void);
 
 /*** tablas de estado ***/
 
@@ -68,8 +68,8 @@ STATE estado_4[] =
 
 STATE estado_5[] =
 {
-	{'l',estado_0,coincidencia},
-   	{'n',estado_0,coincidencia},
+	{'l',estado_0,match},
+   	{'n',estado_0,match},
 	{FIN_TABLA,estado_0,reset_FSM}
 };
 
@@ -86,9 +86,9 @@ STATE *FSM_GetInitState(void)
 
 ///=========Rutinas de accion===============
 
-/*Incrementa el contador de coincidencias*/
+/*Incrementa el contador de coincidencias */
 
-void coincidencia (void)
+void match (void)
 {
  
 	 inc_cont();

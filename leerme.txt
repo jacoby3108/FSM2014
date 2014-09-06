@@ -1,7 +1,16 @@
-Como la linea de comando para compilar este projecto es muy larga
-Se uso un command file para gcc
+En el siguiente ejemplo de fsm se detecta la secuencia de entrada por tecldo
+"Daniel" o "Raniel" ver satediag.pdf
 
-Invocacion
+Para compilar hay un makefile "makefsm.mak" 
+
+make makefsm.mak
+
+O bien:
+
+gcc @compile.cmd
+
+Nota: Como la linea de comando para compilar este projecto es muy larga
+Se uso un command file para gcc Invocacion:
 
 gcc @compile.cmd
 

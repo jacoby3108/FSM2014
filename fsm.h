@@ -1,3 +1,15 @@
+/* 
+ * fsm.h
+ *
+ *  Created on: 28/07/2014
+ *      Author: Daniel Jacoby
+ */
+
+
+#ifndef FSM_H_
+#define FSM_H_
+
+
 #define FIN_TABLA 0xFF
 
 typedef	int BYTE;
@@ -13,3 +25,5 @@ struct tabla_estado
 
 // Interfaz
 STATE* fsm(STATE *p_tabla_estado,BYTE evento_actual);
+
+#endif /* FSM_H_ */
