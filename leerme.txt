@@ -3,7 +3,7 @@ En el siguiente ejemplo de fsm se detecta la secuencia de entrada por tecldo
 
 Para compilar hay un makefile "makefsm.mak" 
 
-make makefsm.mak
+make -f makefsm.mak
 
 O bien:
 
